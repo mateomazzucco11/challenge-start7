@@ -1,0 +1,130 @@
+.login__rightside-content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__rightside-main-box {
+  display: relative;
+  height: 80%;
+  width: 62.3%;
+  margin-top: 144px;
+}
+
+.login__rightside-line-top {
+  height: 4px;
+  width: 32px;
+  display: block;
+  content: '';
+  background: #5594EF;
+}
+
+.login__rightside-title {
+  color: #5594EF;
+  margin-top: 24px;
+  width: 100%;
+  font-family: Asap;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 39px;
+}
+
+.login__rightside-text {
+  margin-top: 24px;
+  width: 361px;
+  height: 52px;
+  font-family: Asap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 26px;
+  color: #5594EF;
+}
+
+.login__rightside-form {
+  width: 100%;
+  margin-top: 40px;
+  input {
+    width: 100%;
+    height: 56px;
+    padding: 16px 0;
+    padding-left: 24px;
+    border: 1px solid #CEE0FA;
+    color: #9EC2F6;
+  }
+  .second-input {
+    margin-top: 20px;
+  }
+  p {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    align-items: center;
+    letter-spacing: 0.15px;
+    text-decoration-line: underline;
+    font-family: Asap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6DA3F1;
+  }
+  button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 54px;
+    background: #5594EF;
+    border-radius: 100px;
+  }
+}
+
+.login__bottom-text {
+  margin-top: 32px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Asap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #6DA3F1;
+}
+
+.login__social-media{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 32px;
+  .facebook {
+    margin-right: 33px;
+  }
+}
+
+.login__last-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Asap;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  color: #5594EF;
+  span{
+    font-weight: bold;
+    margin-left: 4px;
+    cursor: pointer;
+  }
+}
